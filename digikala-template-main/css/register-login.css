@@ -1,0 +1,508 @@
+/*===========================================register-login start=============================================*/
+.modal-layout {
+
+}
+
+
+.modal-layout .page-account-box .account-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-layout .page-account-box .account-box .box-login-logo {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.modal-layout .page-account-box .account-box .box-login-logo a.logo {
+    display: inline-block;
+}
+
+.modal-layout .page-account-box .account-box .account-box-headline {
+    width: 50%;
+    height: 45px;
+    border: 1px dashed #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 0;
+
+}
+
+.modal-layout .page-account-box .account-box .account-box-headline a {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    color: #1b1333;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.modal-layout .page-account-box .account-box .account-box-headline a.active {
+    background-color: #455A64 !important;
+    color: #fff;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content {
+    width: 100%;
+    margin: 3rem auto 0;
+    padding: 0 50px;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account {
+    width: 100%;
+    float: right;
+    height: auto;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title {
+    width: 100%;
+    color: #1b1333;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    position: relative;
+    float: right;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title label {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title input {
+    width: 100%;
+    float: right;
+    padding: 10px 10px 10px 40px;
+    border-bottom: 1px dashed #ddd;
+    outline: none;
+    color: #444;
+    text-align: left;
+    direction: ltr;
+    transition: all 300ms ease;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title input::placeholder {
+    text-align: right;
+    direction: rtl;
+    color: #999;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title input:focus {
+    border-bottom: 1px dashed #444;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-account-title i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 24px;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row {
+    width: 100%;
+    position: relative;
+    float: right;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row .check-box-container {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row .check-box-container input {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row .check-box-container .custom-checkbox-ui {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row .check-box-container input:checked + .custom-checkbox-ui::after {
+    content: '\2713';
+    width: 100%;
+    height: 100%;
+    background-color: #1976D2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row label {
+    margin-right: 30px;
+    font-size: 11px;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .form-account .form-auth-row label a {
+    color: #1ca2bd;
+    border-bottom: 1px dashed #1ca2bd;
+    margin-left: 5px;
+}
+
+.btn-submit {
+    width: 100%;
+    text-align: center;
+    float: right;
+    margin: 50px 0;
+}
+
+.btn-submit button {
+    padding: 13px 100px;
+    border-radius: 8px;
+    background-color: #ef394e;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-submit button::after {
+    content: '';
+    width: 80px;
+    position: absolute;
+    right: -11px;
+    background-color: hsla(0, 0%, 90%, 0.21);
+    border-radius: 50% 0 0 50%;
+    height: 150%;
+    top: -13px;
+    transition: width 300ms ease-out;
+    z-index: 999;
+}
+
+.btn-submit button:hover::after {
+    content: '';
+    width: 110%;
+    border-radius: 0;
+}
+
+.btn-change-password button {
+    width: 100% !important;
+}
+
+button i {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .forget-pass {
+    width: 100%;
+    float: right;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 12px;
+
+}
+
+.modal-layout .page-account-box .account-box .account-box-content .forget-pass a {
+    position: relative;
+    color: #0b2e13;
+    border-bottom: 1px dashed #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal-layout .footer-light {
+    border-top: 1px dashed #ddd;
+    padding: 20px 0;
+}
+
+.modal-layout .footer-light .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-layout .footer-light .container .footer-light-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal-layout .footer-light .container .footer-light-link li {
+    margin: 0 20px;
+}
+
+.modal-layout .footer-light .container .footer-light-link li a {
+    color: #777;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.modal-layout .footer-light .container .footer-title {
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 0 30px;
+    font-size: 13px;
+    color: #b0b0b0;
+}
+
+.modal-layout .footer-light .container .footer-copyright-light {
+    font-size: 13px;
+    color: #b0b0b0;
+}
+
+
+.modal-layout .page-account-box .account-box .login-with-mobile {
+    padding: 20px 30px;
+    border: 1px dashed #f0c7fb;
+    background-color: #fffde4;
+    color: #ff5b67;
+    border-radius: 4px;
+    margin: 50px 0 0;
+    font-size: 13px;
+}
+
+/*===========================================register-login end=============================================*/
+
+/*===========================================welcome start===================================================*/
+.page-title {
+    text-align: center;
+    color: #333;
+    margin: 10px 0 30px;
+    font-size: 1rem;
+}
+
+.page-title span {
+    font-weight: bold;
+    font-size: 1.200rem;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.welcome-page-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-page-container i {
+    font-size: 85px;
+    color: #757575;
+}
+
+.made-account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-account h2 {
+    text-align: center;
+    color: #757575;
+    font-weight: bold;
+    margin: 50px 0;
+    font-size: 16px;
+}
+
+.made-account p {
+    width: 90%;
+    padding: 30px 20px;
+    line-height: 27px;
+    background-color: #f0fff6;
+    border: 1px dashed #ccc;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.change-password .form-account-title {
+    margin-bottom: 20px !important;
+}
+
+.page-change span {
+    margin-bottom: 0 !important;
+}
+
+/*===========================================welcome end===================================================*/
+
+/*===========================================verify phone number start============================================*/
+
+.edit-phone-number {
+    padding: 15px 70px;
+    background-color: #fffde4;
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    text-align: right;
+    line-height: 32px;
+}
+
+.edit-phone-number span {
+    display: block;
+    color: #a37730;
+    font-size: 12px;
+    margin: 0;
+}
+
+.edit-phone-number a.edit-number {
+    display: inline-block;
+    color: #1ca2bd;
+    font-size: 12px;
+    border-bottom: 1px dashed #1ca2bd;
+}
+
+.enter-verify-code-container {
+    text-align: center;
+}
+
+.enter-verify-code-container .enter-verify-code .enter-code-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+
+.enter-verify-code-container .enter-verify-code .input-code {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.enter-verify-code-container .enter-verify-code .input-code input {
+    border-bottom: 4px solid #444;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 300ms ease;
+}
+
+.enter-verify-code-container .enter-verify-code .input-code input:focus {
+    border-bottom-color: #42A5F5;
+}
+
+.enter-verify-code-container .btn-submit p {
+    background-color: #00d0ff;
+    outline: none;
+    padding: 13px 100px;
+    border-radius: 8px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.enter-verify-code-container .btn-submit p::after {
+    background-color: rgba(232, 232, 232, 0.250);
+}
+
+.ques-new-user {
+    margin-bottom: 20px;
+}
+
+.ques-new-user span {
+    font-size: 11px;
+    color: #757575;
+    display: inline-block;
+
+}
+
+.ques-new-user a {
+    font-size: 13px;
+    color: #1ca2bd;
+    border-bottom: 1px dashed #1ca2bd;
+}
+
+
+
+
+.btn-submit #countdown-verify-end {
+    width: 150px;
+    height: 40px;
+    background-color: #00d0ff;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit #countdown-verify-end a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-submit  span {
+    margin: 0;
+    float: left;
+}
+
+
+p i {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+.day{
+    display: none;
+}
+
+.hour{
+    display: none;
+}
+
+
+
+/*===========================================verify phone number end============================================*/

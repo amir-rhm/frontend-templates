@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>صفحه پرداخت ناموفق</title>
+
+    <link rel="stylesheet" href="css/materialdesignicons.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/icon" sizes="16*16">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/shipping.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+<header>
+    <div class="container-main">
+        <div class="col-12 p-0">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container-main">
+        <div class="col-12 p-0 position-relative">
+            <div class="checkout-steps position-absolute">
+                <ul>
+                    <li class="is-active">
+                        <div class="checkout-steps-item-summary" data-title="اطلاعات ارسال"></div>
+                    </li>
+                    <li class="is-active">
+                        <div class="checkout-steps-item-summary" data-title="پرداخت"></div>
+                    </li>
+                    <li class="is-active">
+                        <div class="checkout-steps-item-summary" data-title="اتمام خرید و ارسال"></div>
+                    </li>
+                </ul>
+            </div>
+            <section class="content">
+                <div class="content-success">
+                    <div class="buying-top">
+                        <div class="icon-success icon-unsuccess">
+                            <!--                            <i class="fa fa-check"></i>-->
+                        </div>
+                        <div class="order-success">
+                            <div class="order-number">
+                                سفارش
+                                <a href="#">DK-123456789</a>
+                                در سیستم ثبت شد اما پرداخت ناموفق بود.
+                            </div>
+                            <div class="order-text">
+                                <span class="unsuccess-text">برای جلوگیری از لغو سیستمی سفارش ، تا 24 ساعت آینده پرداخت را انجام دهید.</span>
+                                <br>
+                                چنانچه طی این فرآیند مبلغی از حساب شما کسر شده است ، طی 72 ساعت آینده به حساب شما باز
+                                خواهد گشت.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-information-table">
+                        <div class="order-information-title">
+                            کد سفارش :
+                            <span>DK-123456789</span>
+                        </div>
+                        <div class="order-tracking">
+                            <div class="order-tracking-text">
+                                سفارش شما با موفقیت در سیستم ثبت شد و هم اکنون
+                                <a href="#" class="order-level">در حال پردازش</a>
+                                است. این سفارش را می توانید با کلیک بر روی دکمه
+                                <a href="#">پیگیری سفارش</a>
+                                مشاهده نمایید.
+                            </div>
+                            <button>
+                                <i class="fa fa-sign-out-alt"></i>
+                                پیگیری سفارش
+                            </button>
+                        </div>
+                        <div class="table-order">
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>نام تحویل گیرنده : <span>امیرحسین رحمانی</span></td>
+                                    <td>شماره تماس : <span>09381108729</span></td>
+                                </tr>
+                                <tr>
+                                    <td>تعداد مرسوله : <span>1</span></td>
+                                    <td>مبلغ کل : <span>40,750,000 <span>تومان</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td>وضیعت پرداخت : <span>پرداخت آنلاین (موفق)</span></td>
+                                    <td>وضعیت سفارش : <span>در حال پردازش</span></td>
+                                </tr>
+                                <tr>
+                                    <td>آدرس : <span>قزوین ، تاکستان خیابان علامه امینی</span></td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="back-to-cart">
+                        <a href="#">
+                            <i class="fa fa-angle-right"></i>
+                            بازگشت به سبد خرید
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+
+<div class="dark"></div>
+<div class="address-modal">
+    <div class="address-modal-wrapper">
+        <div class="address-modal-header">
+            <div class="address-modal-header-title">
+                <i class="mdi mdi-map-marker"></i>
+                افزودن آدرس جدید
+            </div>
+            <button class="close-modal">
+                <i class="fa fa-close"></i>
+            </button>
+        </div>
+        <div class="address-modal-content">
+            <form action="">
+                <fieldset>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell">
+                            <label for="username">
+                                نام تحویل گیرنده
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" id="username" placeholder="نام تحویل گیرنده را وارد کنید">
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell">
+                            <label for="phone">
+                                شماره موبایل
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" class="align-ltr" id="phone" placeholder="09xxxxxxxxx">
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell">
+                            <label for="tell">
+                                شماره تلفن ثابت
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" class="align-ltr" id="tell" placeholder="021xxxxxxxx">
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell ">
+                            <label for="ostan">
+                                استان
+                                <span class="required-star">*</span>
+                            </label>
+                            <select name="" id="ostan" onchange="province(this.value)">
+                                <option value="0">لطفا استان را انتخاب نمایید</option>
+                                <option value="1">تهران</option>
+                                <option value="2">گیلان</option>
+                                <option value="3">آذربایجان شرقی</option>
+                                <option value="4">خوزستان</option>
+                                <option value="5">فارس</option>
+                                <option value="6">اصفهان</option>
+                                <option value="7">خراسان رضوی</option>
+                                <option value="8">قزوین</option>
+                                <option value="9">سمنان</option>
+                                <option value="10">قم</option>
+                                <option value="11">مرکزی</option>
+                                <option value="12">زنجان</option>
+                                <option value="13">مازندران</option>
+                                <option value="14">گلستان</option>
+                                <option value="15">اردبیل</option>
+                                <option value="16">آذربایجان غربی</option>
+                                <option value="17">همدان</option>
+                                <option value="18">کردستان</option>
+                                <option value="19">کرمانشاه</option>
+                                <option value="20">لرستان</option>
+                                <option value="21">بوشهر</option>
+                                <option value="22">کرمان</option>
+                                <option value="23">هرمزگان</option>
+                                <option value="24">چهارمحال و بختیاری</option>
+                                <option value="25">یزد</option>
+                                <option value="26">سیستان و بلوچستان</option>
+                                <option value="27">ایلام</option>
+                                <option value="28">کهگلویه و بویراحمد</option>
+                                <option value="29">خراسان شمالی</option>
+                                <option value="30">خراسان جنوبی</option>
+                                <option value="31">البرز</option>
+                            </select>
+                        </div>
+                        <div class="modal-input-cell">
+                            <label for="city">
+                                شهر
+                                <span class="required-star">*</span>
+                            </label>
+                            <select name="" id="city">
+                                <option value="0">لطفا استان را انتخاب نمایید</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell ">
+                            <label for="plaque">
+                                پلاک
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" id="plaque" placeholder="پلاک را وارد کنید" class="two-column">
+                        </div>
+                        <div class="modal-input-cell ">
+                            <label for="unit">
+                                واحد
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" id="unit" placeholder="واحد را وارد کنید">
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell">
+                            <label for="postal-code">
+                                کد پستی
+                                <span class="required-star">*</span>
+                            </label>
+                            <input type="text" id="postal-code" placeholder="کد پستی را وارد کنید">
+                        </div>
+                    </div>
+                    <div class="modal-input-row">
+                        <div class="modal-input-cell">
+                            <label for="address">
+                                آدرس
+                                <span class="required-star">*</span>
+                            </label>
+                            <textarea name="" id="address" placeholder="آدرس را وارد کنید"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-input-row submit">
+                        <div class="modal-input-cell">
+                            <button class="submit-address">ثبت آدرس</button>
+                        </div>
+                        <div class="modal-input-cell cancel">
+                            <a href="#">
+                                انصراف و بازگشت
+                            </a>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container-main">
+        <div class="shipping-footer">
+            <div class="shipping-footer-top">
+                <div class="shipping-footer-phone">
+                    <i class="fa fa-phone"></i>
+                    شماره تماس :
+                    <a href="#">۶۱۹۳۰۰۰۰ - ۰۲۱</a>
+                </div>
+                <div class="shipping-footer-email">
+                    <i class="far fa-envelope"></i>
+                    آدرس ایمیل :
+                    <a href="#">info@digikala.com</a>
+                </div>
+            </div>
+            <div class="shipping-footer-message">
+                استفاده از کارت هدیه یا کد تخفیف، درصفحه ی پرداخت امکان پذیر است.
+            </div>
+            <div class="copyright">
+                Copyright © 2006 - 2020 Digikala.com
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/fontAwesome.js"></script>
+
+</body>
+</html>

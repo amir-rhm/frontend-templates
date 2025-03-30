@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه تست</title>
+    <link rel="stylesheet" href="js/rangeSlider/ion.rangeSlider.min.css">
+    <style>
+        body{
+            direction: rtl;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+<input class="custom-range-slider" type="range" min="1" max="100" step="10" value="10">
+
+<script src="js/jquery.js"></script>
+<script src="js/rangeSlider/ion.rangeSlider.min.js"></script>
+<script>
+    $('.custom-range-slider').ionRangeSlider({
+        // type:"double",
+        type:'double',
+        toFixed:false,
+        skin: 'round',
+        values: ["عالی", 'خوب', 'معمولی', 'بد', 'خیلی بد'],
+        from: 2,
+        grid: true,
+        hide_min_max: true
+        // min:0,
+        // max:100,
+        // from:50,
+        // to:70,
+        // grid:true
+
+    });
+</script>
+</body>
+
+</html>

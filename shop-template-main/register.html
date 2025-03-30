@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه اینترنتی</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/helper.css">
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+</head>
+
+<body>
+
+    <main class="main main--register">
+        <div class="container">
+            <div class="register-actions">
+                <a href="#">
+                    <img class="register__logo" src="assets/img/logo-fashion-2.png" alt="">
+                </a>
+                <a href="#" class="register__back">
+                    <i class="register__back-icon fa-solid fa-arrow-left"></i>
+                </a>
+            </div>
+            <div class="register-icons">
+                <img class="register-icons__img" src="assets/svg/Sign-i.svg" alt="">
+                <span class="register-icons__text">ورود</span>
+            </div>
+            <section class="form">
+                <form action="">
+                    <div class="form__wrapper">
+                        <div class="form__row">
+                            <label class="form__row-label" for="userName">نام کاربری یا آدرس ایمیل</label>
+                            <input class="form__row-input" type="text" id="username" name="username">
+                        </div>
+                        <div class="form__row">
+                            <label class="form__row-label" for="pass">گذرواژه</label>
+                            <input class="form__row-input" type="password" id="pass" name="password">
+                            <i class="form__row-eye fa-regular fa-eye"></i>
+                        </div>
+                        <div class="form__row form__row--chb">
+
+                            <input class="form__row-inpChb" type="checkbox" name="" id="chb">
+                            <label class="form__row-labChb" for="chb">مرا به خاطر بسپار</label>
+                        </div>
+                        <div class="form__row">
+                            <input class="form__row-submit" type="submit" name="" id="submit" value="ورود">
+                        </div>
+                        <div class="form__row">
+                            <a class="form__row-forget" href="#">گذرواژه خود را فراموش کرده اید؟</a>
+                        </div>
+                        <div class="form__row form__row--actions">
+                            <a class="form__row-dont" href="#">حساب کاربری ندارید؟</a>
+                            <a class="form__row-sign" href="#">ثبت نام</a>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function () {
+            let input = $(".form__row-input[type=password]");
+            $(".form__row-eye").on("click", function () {
+                if ($(this).hasClass("fa-eye-slash")) {
+                    $(this).removeClass("fa-eye-slash");
+                    $(this).addClass("fa-eye");
+                    input.attr("type", "password")
+                } else {
+                    $(this).removeClass("fa-eye");
+                    $(this).addClass("fa-eye-slash");
+                    input.attr("type", "text")
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,2142 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه اینترنتی</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/helper.css">
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+</head>
+
+<body>
+    <header class="header p-relative">
+        <div class="container">
+            <div class="header-wrapper d-flex f-a-i f-j-c-sa f-w-w">
+                <div class="mobile-list ">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="logo">
+                    <a href="#">
+                        <img class="logo__img" src="assets/img/logo-fashion-2.png" alt="">
+                    </a>
+                </div>
+                <div class="search d-flex">
+                    <input class="search__input f-g-1" type="text"
+                        placeholder="نام محصول مورد نظر خود را وارد کنید ...">
+                    <i class="c-pointer search__icon fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header-actions d-flex f-a-i">
+                    <div class="register">
+                        <a class="register__link d-block" href="#">
+                            <i class="register__icon fa-regular fa-user"></i>
+                            ورود / ثبت نام
+                        </a>
+                    </div>
+                    <div class="header__shopping p-relative ss02">
+                        <i class="shopping__icon p-relative c-pointer fa-solid fa-cart-shopping"></i>
+                        <span class="p-absolute shopping__num t-center">0</span>
+                        <div class="header__shoping-cart p-absolute">
+                            <img class=" header__shopping-cart__img " src="assets/svg/Empty-cart.svg" alt="">
+                            <p class="header__shopping-cart__text">سبد خرید شما خالی است .</p>
+                            <a class="header__shopping-cart__link" href="#">بازگشت به فروشگاه</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="change-theme p-absolute c-pointer">
+            <i class="theme__icon fa-regular fa-moon"></i>
+        </div>
+    </header>
+    <main class="main p-relative">
+        <nav class="nav" id="nav">
+            <div class="container container--sticky">
+                <div class="nav-wrapper">
+                    <div class="nav-menu p-relative">
+                        <div class="nav-menu__btn c-pointer p-relative">
+                            <i class="nav-menu__icon fa-solid fa-bars"></i>
+                            <span class="nav-menu__text">دسته بندی محصولات</span>
+                        </div>
+                        <ul class="menu p-absolute">
+                            <li class="menu__item p-relative">
+                                <a class="menu__link" href="#">
+                                    <i class="menu__link-Ficon fa-solid fa-chevron-left"></i>
+                                    <span class="menu__link-text">همه محصولات</span>
+                                </a>
+                            </li>
+                            <li class="menu__item p-relative">
+                                <a class="menu__link" href="#">
+                                    <i class="menu__link-Ficon fa-solid fa-mars"></i>
+                                    <span class="menu__link-text">زنانه</span>
+                                    <i class="menu__link-more fa-solid fa-angle-left"></i>
+                                </a>
+                                <ul class="menu-level2 p-absolute">
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">لباس</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">تیشرت</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">ژاکت و پلیور</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">سویشرت و هودی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">لباس بارداری</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">کیف</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کوله پشتی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کیف پول و لوازم آرایش</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">ست هدیه</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کیف سفری و چمدان</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">کفش</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کفش پاشنه دار</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کفش رسمی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کفش روزمره</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">اکسسوری</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">شال و روسری</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">اکسسوری مو</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">ساعت عقربه ای</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">زیورآلات</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item p-relative">
+                                <a class="menu__link" href="#">
+                                    <i class="menu__link-Ficon fa-solid fa-venus"></i>
+                                    <span class="menu__link-text">مردانه</span>
+                                    <i class="menu__link-more fa-solid fa-angle-left"></i>
+                                </a>
+                                <ul class="menu-level2 p-absolute">
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">لباس</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کت و ست رسمی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">پالتو</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">سویشرت و هودی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">تاب و رکابی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">جلیقه پاییزه</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">ورزشی</span>
+                                            <i class="menu-level2__link-more fa-solid fa-angle-left"></i>
+                                        </a>
+                                        <ul class="menu-level3 p-absolute">
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">کاپشن و جلیقه ورزشی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">سویشرت و هودی ورزشی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">گرم کن و ست ورزشی</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-level3__item">
+                                                <a href="#" class="menu-level3__link">
+                                                    <i class="menu-level3__link-Ficon fa-regular fa-circle"></i>
+                                                    <span class="menu-level3__link-text">تی شرت و پولوشرت ورزشی</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-level2__item p-relative">
+                                        <a href="#" class="menu-level2__link">
+                                            <i class="menu-level2__link-Ficon fa-regular fa-circle"></i>
+                                            <span class="menu-level2__link-text">کفش</span>
+                                        </a>
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__item p-relative">
+                                <a class="menu__link" href="#">
+                                    <i class="menu__link-Ficon fa-regular fa-clock"></i>
+                                    <span class="menu__link-text">ساعت</span>
+                                </a>
+                            </li>
+                            <li class="menu__item p-relative">
+                                <a class="menu__link" href="#">
+                                    <i class="menu__link-Ficon fa-solid fa-notes-medical"></i>
+                                    <span class="menu__link-text">زیبایی و سلامت</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="list">
+                        <li class="list__item">
+                            <a href="#" class="list__link">صفحه نخست</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__link">حساب کاربری</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__link">تسویه حساب</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__link">سبد خرید</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__link">فروشگاه</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#" class="list__link">یلدای ویژه</a>
+                        </li>
+                    </ul>
+                    <div class="special-offer fontWeight-700">
+                        <a href="#">
+                            <i class="special-offer__icon fa-regular fa-gem"></i>
+                            <span class="special-offer__text">یلدای ویژه</span>
+                        </a>
+                    </div>
+                    <div class="header__shopping sticky-basket p-relative ss02">
+                        <span class="p-absolute shopping__num t-center">0</span>
+                        <i class="shopping__icon p-relative c-pointer fa-solid fa-cart-shopping"></i>
+                        <div class="header__shoping-cart p-absolute">
+                            <img class=" header__shopping-cart__img " src="assets/svg/Empty-cart.svg" alt="">
+                            <p class="header__shopping-cart__text">سبد خرید شما خالی است .</p>
+                            <a class="header__shopping-cart__link" href="#">بازگشت به فروشگاه</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <div class="mobile p-absolute">
+            <div class="mobile-actions d-flex f-a-i">
+                <div class="register">
+                    <a class="register__link d-block" href="#">
+                        <i class="register__icon fa-regular fa-user"></i>
+                        ورود / ثبت نام
+                    </a>
+                </div>
+                <div class="register">
+                    <a class="register__link d-block" href="#">
+                        <i class="register__icon  fa-solid fa-cart-shopping"></i>
+                        سبد خرید
+                    </a>
+                </div>
+
+            </div>
+            <ul class="mobile-menu">
+                <li class="mobile__item">
+                    <a href="#" class="mobile__link">
+                        <span class="mobile__link-text">همه محصولات</span>
+                    </a>
+                </li>
+                <li class="mobile__item">
+                    <a href="#" class="mobile__link">
+                        <span class="mobile__link-text">زنانه</span>
+                        <i class="mobile__link-more fa-solid fa-angle-left"></i>
+                    </a>
+                    <ul class="mobile-menu-2">
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">لباس</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                            <ul class="mobile-menu-3">
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">تیشرت</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">ژاکت و پلیور</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">سویشرت و هودی</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">لباس بارداری</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">کیف</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">کفش</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">اکسسوری</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile__item">
+                    <a href="#" class="mobile__link">
+                        <span class="mobile__link-text">مردانه</span>
+                        <i class="mobile__link-more fa-solid fa-angle-left"></i>
+                    </a>
+                    <ul class="mobile-menu-2">
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">لباس</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                            <ul class="mobile-menu-3">
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">کت و ست رسمی</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">پالتو</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">سویشرت و هودی</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">تاب و رکابی</span>
+                                    </a>
+                                </li>
+                                <li class="mobile3__item">
+                                    <a href="#" class="mobile3__link">
+                                        <span class="mobile3__link-text">جلیقه پاییزه</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">ورزشی</span>
+                                <i class="mobile2__link-more fa-solid fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="mobile2__item">
+                            <a href="#" class="mobile2__link">
+                                <span class="mobile2__link-text">کفش</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile__item">
+                    <a href="#" class="mobile__link">
+                        <span class="mobile__link-text">ساعت</span>
+                        <i class="mobile__link-more fa-solid fa-angle-left"></i>
+                    </a>
+                </li>
+                <li class="mobile__item">
+                    <a href="#" class="mobile__link">
+                        <span class="mobile__link-text">زیبایی و سلامت</span>
+                        <i class="mobile__link-more fa-solid fa-angle-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="offer-slider">
+            <div class="container">
+                <div class="swiper banner">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/img/banner2.jpg" class="slider-img img-responsive"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/banner22.jpg" class="slider-img img-responsive"
+                                alt=""></div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="container">
+                <div class="category__wrapper d-flex f-w-w f-j-c-c">
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-venus"></i>
+                            <span class="cat__item-text">زنانه</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-temperature-half"></i>
+                            <span class="cat__item-text">تابستانه</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-shirt"></i>
+                            <span class="cat__item-text">تیشرت</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-ribbon"></i>
+                            <span class="cat__item-text">شال</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-star-of-life"></i>
+                            <span class="cat__item-text">زمستانه</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-gift"></i>
+                            <span class="cat__item-text">هدیه</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-glasses"></i>
+                            <span class="cat__item-text">عینک</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <i class="cat__item-icon fa-solid fa-hat-cowboy"></i>
+                            <span class="cat__item-text">کلاه</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="slider slider--newest">
+            <div class="container">
+                <div class="slider__title">
+                    <span class="slider__title-ftext">اسلایدر محصول</span>
+                    <span class="slider__title-ltext">اسلایدر جدیدترین محصولات</span>
+                </div>
+                <div class="slider-items">
+                    <div class="swiper nSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        6%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs ss02">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/1-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/1-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پیراهن چهارخانه کیکی رایکی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">859,000</span>
+                                            <span class="price-off">800,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/2-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/2-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پولوشرت سبز نایکی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="price-off">920,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/3-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/3-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پولوشرت مشکی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="price-off">360,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        10%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/4-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/4-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پولوشرت دو رنگ آبی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">500,000</span>
+                                            <span class="price-off">460,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        8%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/5-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/5-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پیراهن فانتزی نایکی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">760,000</span>
+                                            <span class="price-off">600,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        4%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/6-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/6-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پولوشرت سبزتیره</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">1,012,000</span>
+                                            <span class="price-off">900,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        15%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/7-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/7-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">پولوشرت سفید</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">390,000</span>
+                                            <span class="price-off">350,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item">
+                                    <span class="off_num">
+                                        10%
+                                    </span>
+                                    <i class="slider__heart fa-regular fa-heart"></i>
+                                    <a href="#">
+                                        <div class="slider__item-imgs">
+                                            <img class="img-responsive slider__item-img1" src="assets/img/8-1.jpg"
+                                                alt="">
+                                            <img class="img-responsive slider__item-img2" src="assets/img/8-2.jpg"
+                                                alt="">
+                                        </div>
+                                        <p class="slider__item-title">کفش مخصوص پیاده روی</p>
+                                        <div class="slider__item-price ss02">
+                                            <span class="real-price ">500,000</span>
+                                            <span class="price-off">400,000 تومان</span>
+                                        </div>
+                                    </a>
+                                    <div class="slider__item-basket">
+                                        <a href="#">
+                                            <div class="slider__item-basket__i">
+                                                <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer-season">
+            <div class="container">
+                <div class="offer-season__wrapper">
+                    <div class="offer-season-poster">
+                        <img class="offer-season-poster__img" src="assets/img/ryan-hoffman-6Nub980bI3I-unsplash.jpg"
+                            alt="">
+                        <p class="offer-season-poster__text">تابستانه امسال</p>
+                    </div>
+                    <div class="slider-items offer-season-items">
+                        <div class="swiper offer_slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            6%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs ss02">
+
+                                                <img class="img-responsive slider__item-img1" src="assets/img/9-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/9-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پیراهن هاوایی تابستانی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">390,000</span>
+                                                <span class="price-off">300,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/10-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/10-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">صندل تابستانی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">980,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/11-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/11-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">کلاه مدل تابستانی لبه کوتاه</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">450,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/12-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/12-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">صندل دخترانه لیمو طب مدل تابستانی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">340,000</span>
+                                                <span class="price-off">300,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            8%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/13-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/13-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">مانتو خنک تابستونی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">760,000</span>
+                                                <span class="price-off">600,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            4%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/14-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/14-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">صندل آبی تابستانی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">670,000</span>
+                                                <span class="price-off">600,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            15%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/15-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/15-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">شلوار زنانه قرآنی مدل نخی تابستانی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">390,000</span>
+                                                <span class="price-off">350,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/16-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/16-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">شال زنانه شانل مدل نخی ساده تابستانی حاشیه
+                                                زنجیره ای</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">500,000</span>
+                                                <span class="price-off">400,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category brands">
+            <div class="container">
+                <div class="category__wrapper d-flex f-w-w f-j-c-c">
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/brioni-1.png" alt="">
+                            <span class="cat__item-text">بریونی</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/ecco-1.png" alt="">
+                            <span class="cat__item-text">اکو</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/guess.png" alt="">
+                            <span class="cat__item-text">گس</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/diesel-1.png" alt="">
+                            <span class="cat__item-text">دیزل</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/converse-1.png" alt="">
+                            <span class="cat__item-text">کانورس</span>
+                        </a>
+                    </div>
+                    <div class="cat__item">
+                        <a href="#" class="cat__link">
+                            <img src="assets/img/chanel-2.png" alt="">
+                            <span class="cat__item-text">چنل</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular">
+            <div class="container">
+                <div class="popular__wrapper">
+                    <div class="popular__wrapper-title">هدیه های پر طرفدار ...</div>
+                    <div class="pngtree"></div>
+                    <div class="slider-items slider-items--popular">
+                        <div class="swiper pSlider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            6%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs ss02">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/1-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/1-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پیراهن چهارخانه کیکی رایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">859,000</span>
+                                                <span class="price-off">800,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/2-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/2-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سبز نایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">920,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/3-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/3-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت مشکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">360,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/4-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/4-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت دو رنگ آبی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">500,000</span>
+                                                <span class="price-off">460,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            8%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/5-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/5-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پیراهن فانتزی نایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">760,000</span>
+                                                <span class="price-off">600,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            4%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/6-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/6-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سبزتیره</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">1,012,000</span>
+                                                <span class="price-off">900,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            15%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/7-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/7-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سفید</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">390,000</span>
+                                                <span class="price-off">350,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/8-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/8-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">کفش مخصوص پیاده روی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">500,000</span>
+                                                <span class="price-off">400,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                    <div class="pngtree"></div>
+                </div>
+            </div>
+        </section>
+        <section class="adver">
+            <div class="container">
+                <div class="adver__wrapper">
+                    <a href="#" class="adver__link">
+                        <img class="adver__img img-responsive" src="assets/img/poster1.jpg" alt="">
+                    </a>
+                    <a href="#" class="adver__link">
+                        <img class="adver__img img-responsive" src="assets/img/poster2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="top-rated">
+            <div class="container container--rated">
+                <div class="rated__wrapper">
+                    <div class="slider__title">
+                        <span class="slider__title-ftext">ست منتخب زنبیل</span>
+                        <span class="slider__title-ltext">مجموعه ای از پر امتیاز ترین محصولات</span>
+                    </div>
+                    <div class="slider-items">
+                        <div class="swiper tSlider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            6%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs ss02">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/1-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/1-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پیراهن چهارخانه کیکی رایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">859,000</span>
+                                                <span class="price-off">800,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/2-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/2-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سبز نایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">920,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/3-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/3-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت مشکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="price-off">360,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/4-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/4-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت دو رنگ آبی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">500,000</span>
+                                                <span class="price-off">460,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            8%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/5-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/5-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پیراهن فانتزی نایکی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">760,000</span>
+                                                <span class="price-off">600,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            4%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/6-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/6-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سبزتیره</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">1,012,000</span>
+                                                <span class="price-off">900,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            15%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/7-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/7-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">پولوشرت سفید</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">390,000</span>
+                                                <span class="price-off">350,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="slider__item">
+                                        <span class="off_num">
+                                            10%
+                                        </span>
+                                        <i class="slider__heart fa-regular fa-heart"></i>
+                                        <a href="#">
+                                            <div class="slider__item-imgs">
+                                                <img class="img-responsive slider__item-img1" src="assets/img/8-1.jpg"
+                                                    alt="">
+                                                <img class="img-responsive slider__item-img2" src="assets/img/8-2.jpg"
+                                                    alt="">
+                                            </div>
+                                            <p class="slider__item-title">کفش مخصوص پیاده روی</p>
+                                            <div class="slider__item-price ss02">
+                                                <span class="real-price ">500,000</span>
+                                                <span class="price-off">400,000 تومان</span>
+                                            </div>
+                                        </a>
+                                        <div class="slider__item-basket">
+                                            <a href="#">
+                                                <div class="slider__item-basket__i">
+                                                    <i class="slider__item-basket__icon fa-solid fa-plus"></i>
+                                                    <span class="slider__item-basket__text">افزودن به سبد خرید</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <div class="blog__wrapper">
+                    <div class="slider__title">
+                        <span class="slider__title-ftext">نوشته های دنیای دیجیتال</span>
+                    </div>
+                    <div class="blog-items">
+                        <div class="swiper blog--slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/blazer-1_1.jpg" class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">مانتوی کتی را با چه لباس هایی ست کنیم؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/CoverHow-to-Wear-a-Sport-Coat.jpg"
+                                            class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">چگونه کت اسپرت را در استایل مردانه ست کنید؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/oversized-1.jpg" class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">8 روش برای داشتن یک استایل جذاب با شومیز اورسایز</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/little-boy-haircuts.jpg" class="blog__img img-responsive"
+                                            alt="">
+                                        <h3 class="blog__title">6 مدل موی پسرانه که در سال 2022 ترند شده اند</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/skine-type-1.jpg" class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">مانتوی کتی را با چه لباس هایی ست کنیم؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/Benefits-of-Wearing-Linen-Clothing.jpg"
+                                            class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">مانتوی کتی را با چه لباس هایی ست کنیم؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/Face-Washes-mistakes-1_2.jpg"
+                                            class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">مانتوی کتی را با چه لباس هایی ست کنیم؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog__item">
+                                        <img src="assets/img/spring-style.jpg" class="blog__img img-responsive" alt="">
+                                        <h3 class="blog__title">مانتوی کتی را با چه لباس هایی ست کنیم؟</h3>
+                                        <span class="blog__date ss02">22 اسفند 1401</span>
+                                        <p class="blog__desc">
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+
+                                            مانتوی کتی یکی از انواع مانتو است که ظاهر رسمی‌تری به استایل شما می‌دهد.
+                                            روش‌های زیادی
+                                            برای ست کردن مانتو کتی با لباس‌های دیگر وجود دارد. با تغییر لباس‌هایی که
+                                        </p>
+                                        <div class="blog__actions">
+                                            <div class="blog__comments">
+                                                <span class="ss02 blog__comments-num">0</span>
+                                                <i class="blog__comments-icon fa-regular fa-comments"></i>
+                                            </div>
+                                            <div class="blog__more">
+                                                <i class="blog__more-icon fa-solid fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="services__wrapper">
+                    <div class="service__item">
+                        <i class="service__item-icon fa-solid fa-truck-fast"></i>
+                        <div class="service__item-text">
+                            <span class="service__item-text1">ارسال رایگان</span>
+                            <span class="service__item-text2">در سفارش‌های بیشتر از ۲۰۰ هزار تومان</span>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <i class="service__item-icon fa-regular fa-credit-card"></i>
+                        <div class="service__item-text">
+                            <span class="service__item-text1">پرداخت در محل</span>
+                            <span class="service__item-text2">در تهران و بزودی در سراسر کشور</span>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <i class="service__item-icon fa-solid fa-medal"></i>
+                        <div class="service__item-text">
+                            <span class="service__item-text1">سلامت کالا</span>
+                            <span class="service__item-text2">تضمین کیفیت محصولات</span>
+                        </div>
+                    </div>
+                    <div class="service__item">
+                        <i class="service__item-icon fa-solid fa-money-bill"></i>
+                        <div class="service__item-text">
+                            <span class="service__item-text1">بهترین قیمت</span>
+                            <span class="service__item-text2">قیمت منصفانه و تخفیف هفتگی</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">تمام حقوق این وبسایت متعلق به امیرحسین است .</p>
+    </footer>
+    <div class="dark"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        $(function () {
+
+
+            $(".menu").hover(function () {
+                $(".dark").fadeIn(200)
+            }, function () {
+                $(".dark").fadeOut(200)
+            })
+
+            // change theme
+            $(".change-theme").click(function () {
+                $("html").toggleClass("dark-page");
+                $(this).toggleClass("light-icon");
+            })
+
+
+            // sticky menu
+            let nav = document.getElementById("nav");
+            let navPos = nav.offsetTop;
+            $(window).scroll(function () {
+
+                if (98 < scrollY) {
+                    $(".sticky-basket").addClass("active")
+                } else {
+                    $(".sticky-basket").removeClass("active")
+
+                }
+            })
+
+            // mobile menu
+            $(".mobile__link").on("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $(this).next().slideToggle();
+                $(this).toggleClass("active");
+            })
+
+            $(".mobile2__link").on("click", function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $(this).next().slideToggle()
+                $(this).toggleClass("active");
+            })
+
+            $(".mobile-list").click(function () {
+                $(".mobile").toggleClass("active")
+            })
+        })
+
+
+        // heart favorite
+        $(".slider__heart").on("click", function () {
+            $(this).toggleClass("active");
+            if ($(this).hasClass("active")) {
+                $(this).removeClass("fa-regular");
+                $(this).addClass("fa-solid");
+            } else {
+                $(this).addClass("fa-regular");
+                $(this).removeClass("fa-solid");
+            }
+        })
+
+
+
+        // swipper banner
+        const swiper = new Swiper('.banner', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },
+        });
+
+
+
+        // slider newest
+        var slider = new Swiper(".nSlider", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                290: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+
+                // when window width is >= 640px
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                900: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 30
+                },
+                1400: {
+                    slidesPerView: 6,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        var slider = new Swiper(".offer_slider", {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                200: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                450: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+
+                800: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                900: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                },
+                1400: {
+                    slidesPerView: 5,
+                    spaceBetween: 30
+                }
+            }
+        });
+
+        // popular slider
+
+        var slider = new Swiper(".pSlider", {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                200: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                380: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                },
+                1400: {
+                    slidesPerView: 5,
+                    spaceBetween: 40
+                }
+            }
+        });
+
+        var slider = new Swiper(".tSlider", {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                200: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                300: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                1000: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 40
+                },
+                1400: {
+                    slidesPerView: 6,
+                    spaceBetween: 40
+                }
+            }
+        });
+
+        var slider = new Swiper(".blog--slider", {
+            slidesPerView: 6,
+            spaceBetween: 20,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                200: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                400: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                1000: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1400: {
+                    slidesPerView: 4,
+                    spaceBetween: 40
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

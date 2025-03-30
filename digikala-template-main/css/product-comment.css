@@ -1,0 +1,366 @@
+main {
+    float: right;
+    width: 100%;
+}
+
+.page .breadcrumb-container .breadcrumb-content {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 16px;
+    margin: 15px 0;
+}
+
+.page .breadcrumb-container .breadcrumb-content ul {
+    margin-bottom: 0;
+}
+
+.page .breadcrumb-container .breadcrumb-content ul li {
+    display: inline-block;
+}
+
+.page .breadcrumb-container .breadcrumb-content ul li a {
+    font-size: 12px;
+    color: #4a5f73;
+}
+
+.page .breadcrumb-container .breadcrumb-content ul li a:hover {
+    font-size: 12px;
+    color: #000;
+}
+
+.page form .comment-content {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.page form .comment-content .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*.page form .comment-content .box.forms {*/
+/*    padding: 48px 24px;*/
+/*}*/
+
+.page form .comment-content .box .comment-product-img a {
+    padding: 24px 0 0;
+    display: inline-block;
+}
+
+.page form .comment-content .box .comment-product-img a img {
+    width: 350px;
+    height: 350px;
+}
+
+.page form .comment-content .box .comment-product-info {
+    background-color: #fcfcfc;
+    padding: 16px 32px;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-title h3 {
+    font-size: 1.570rem;
+    margin: 16px 0;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-title h3 span {
+    font-size: 1rem;
+    color: #999;
+    margin: 16px 0 8px;
+    display: inline-block;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-attributes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px 0 0;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-attributes .comment-product-info-attributes-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-attributes .comment-product-info-attributes-row .comment-product-info-attributes-col {
+    flex-basis: 50%;
+}
+
+.page form .comment-content .box .comment-product-info .comment-product-info-attributes .comment-product-info-attributes-row .comment-product-info-attributes-col .attribute-title {
+    font-size: 12px;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+/*this plugin for comment*/
+
+.irs--round {
+    width: 90%;
+}
+
+.page form .comment-content .box.forms .comment-form {
+    padding: 48px 24px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col label {
+    font-size: 1.1rem;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col input[type=text] {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    color: #555;
+    outline: none;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    color: #555;
+    outline: none;
+    min-height: 124px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col textarea::placeholder {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col input::placeholder {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row label {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 13px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row input {
+    /*margin-left: 8px;*/
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row .checkbox-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row .checkbox-container input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10000;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row .checkbox-container .checkbox-ui {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: 0;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row .checkbox-container input:checked + .checkbox-ui {
+    background-color: #005cbf;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row .comment-form-col.comment-row .checkbox-container input:checked + .checkbox-ui::after {
+    content: '\2714';
+    /*display: inline-block;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.half-column .comment-form-col {
+    flex-basis: 47%;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.half-column .comment-form-col button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    background-color: #00bfd6;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.half-column .comment-form-col .digiclub-score p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.half-column .comment-form-col .digiclub-score img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.half-column .comment-form-col .digiclub-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.last-row .comment-form-col p {
+    font-size: 11px;
+    color: #777;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.last-row .comment-form-col p a {
+    color: #00bfd6;
+    border-bottom: 1px dashed #00bfd6;
+}
+
+.page form .comment-content .box.forms .comment-form .comment-form-row.last-row .comment-form-col > a {
+    color: #00bfd6;
+    border-bottom: 1px dashed #00bfd6;
+}
+
+
+.page form .comment-content .box.forms .comment-desc-content {
+    padding: 48px 40px;
+    border-right: 1px solid #eee;
+}
+
+.page form .comment-content .box.forms .comment-desc-content .comment-desc-title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 48px;
+}
+
+.page form .comment-content .box.forms .comment-desc-content p {
+    color: #2980b9;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.page form .comment-content .box.forms .comment-desc-content p.last-paragragh {
+    color: #666;
+    margin-top: 24px;
+    line-height: 27px;
+}
+
+.page form .comment-content .box.forms .comment-desc-content p a {
+    color: #49a6e5;
+    border-bottom: 1px solid #2980b9;
+}
+
+.page form .comment-content .box.forms .comment-desc-content ul {
+    margin-bottom: 32px;
+}
+
+.page form .comment-content .box.forms .comment-desc-content ul li::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 100%;
+    margin: 2px 8px;
+}
+
+.page form .comment-content .box.forms .comment-desc-content ul li {
+    margin-bottom: 12px;
+    line-height: 27px;
+}
+
+.irs-single {
+    font-family: amir-yekan;
+    font-size: 12px;
+}
+
+.irs--round .irs-from, .irs--round .irs-to, .irs--round .irs-single {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.irs--round .irs-bar {
+    /*background-color: #35ccde;*/
+    height: 8px;
+}
+
+.irs--round .irs-line {
+    height: 8px;
+}
+
+/*.irs--round .irs-handle {*/
+/*    background-color: #35ccde;*/
+/*}*/
+
+/*.irs--round .irs-from:before, .irs--round .irs-to:before, .irs--round .irs-single:before {*/
+
+/*    border-top-color: #35ccde;*/
+/*}*/
+
+/*.irs--round .irs-from, .irs--round .irs-to, .irs--round .irs-single {*/
+/*    background-color: #35ccde;*/
+/*}*/

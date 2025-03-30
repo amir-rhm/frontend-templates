@@ -1,0 +1,103 @@
+@media screen and (max-width: 1199px) {
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .header-left .nav-left {
+        position: absolute !important;
+        top: -96px !important;
+        left: 20px !important;
+    }
+
+    .main-menu .list-menu .item-list-menu {
+        display: none !important;
+    }
+
+    .main-menu .list-menu .menu-icon-bars {
+        display: block !important;
+    }
+
+    .banner-ads{
+        display: none !important;
+    }
+
+    .slider-top-main{
+        width: 100% !important;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .carousels-incredible-offer{
+        justify-content: center !important;
+    }
+    .slider-digi{
+        display: none !important;
+    }
+
+    .adplacement__container-row .col-12.col-md-6.pull-right.pr-0{
+        padding-left: 0 !important;
+    }
+
+    .adplacement__container-row .col-12.col-md-6.pull-right.pl-0 {
+        padding-right: 0 !important;
+    }
+
+    .adplacement__container-row .col-12.col-sm-6.col-md-3.pull-right.pr-0{
+        padding: 0 !important;
+    }
+
+    .adplacement__container-row .col-12.col-sm-6.col-md-3.pull-right.pl-0 {
+        padding: 0 !important;
+    }
+
+    .footer-links{
+        text-align: center !important;
+    }
+
+    .footer .footer__more-info .footer-description-content aside ul li{
+        margin-bottom: 24px !important;
+    }
+
+    .aside-page{
+        margin-top: 48px;
+    }
+
+    .page-aside{
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer__address-images{
+        display: none !important;
+    }
+    .footer .footer__more-info .footer__partners-container ul {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer__more-info .footer__partners-container ul li {
+        width: auto !important;
+        margin: 8px;
+    }
+
+    .footer-feature-innerbox{
+        flex-wrap: wrap !important;
+    }
+
+    .footer-feature-innerbox .footer-badge{
+        width: auto !important;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+}
+

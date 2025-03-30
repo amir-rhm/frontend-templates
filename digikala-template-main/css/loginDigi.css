@@ -1,0 +1,109 @@
+/*===========================================login digi start=========================================*/
+body.login {
+    background-color: #fff !important;
+}
+
+main .box-login {
+    width: 380px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 30px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+main .box-login .page--account-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .box-login .page--account-box form .login__header-logo {
+    margin-bottom: 50px;
+}
+
+main .box-login .page--account-box form .login__header-logo img {
+    width: 154px;
+    height: 41px;
+}
+
+
+main .box-login .login__form-header {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main .box-login .login__opt-mobile-message {
+    width: 100%;
+    text-align: right;
+    font-size: 0.867rem;
+}
+
+main .box-login .login__form-row {
+    width: 100%;
+
+}
+
+main .box-login .login__form-row label {
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+main .box-login .login__form-row input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e2;
+    outline: none;
+    background-color: #fff;
+    color: #030a16;
+    font-size: 1rem;
+}
+
+main .box-login .login__form-row input:focus {
+    border: 1px solid #5e9ead;
+}
+
+main .box-login button.c-login__form-action {
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    background-color: #ef394e;
+    border-radius: 8px;
+    margin: 20px 0 20px;
+    cursor: pointer;
+
+}
+
+main .box-login p.login__footer {
+    font-size: 0.700rem;
+    line-height: 28px;
+}
+
+main .box-login p.login__footer a {
+    position: relative;
+    color: #212529;
+}
+
+main .box-login p.login__footer a::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #212529;
+}
+
+
+/*===========================================login digi end=========================================*/
+

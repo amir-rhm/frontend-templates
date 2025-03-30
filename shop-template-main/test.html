@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <span>
+        13000000
+    </span>
+
+    <script>
+const price = 143450;
+
+let amir = new Intl.NumberFormat('en-US'); // 143,450
+console.log(amir.format(price))
+
+console.log(new Intl.NumberFormat('en-IN').format(price)); // 1,43,450
+console.log(new Intl.NumberFormat('en-DE').format(price)); // 143.450
+    </script>
+</body>
+</html>
