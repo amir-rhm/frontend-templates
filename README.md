@@ -1,5 +1,8 @@
 # Frontend Templates
 
+مجموعه‌ای از قالب‌های فرانت‌اند شامل صفحات کامل، طراحی رابط کاربری، و پیاده‌سازی نمونه سایت‌های واقعی با HTML, CSS, JavaScript.
+
+
 ## Table of Contents
 - [Repo Root](https://amir-rhm.github.io/frontend-templates/)
 - [Digikala Repo](/templates/digikala-temp)  |  [Digikala Page](https://amir-rhm.github.io/frontend-templates/templates/digikala-temp/) 
